@@ -1,0 +1,105 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.btn-primary{
+    background-color: rgb(243, 191, 60);
+    color: black;
+}
+
+.btn-primary:hover{
+    background-color: rgb(225, 172, 38);
+    text-decoration: none;
+    color: black;
+}
+
+.create .btn-primary{
+    background-color: rgb(221, 220, 220);
+    color: black;
+    width: 366px;
+}
+
+.create .btn-primary:hover{
+    background-color: rgb(201, 199, 199);
+}
+
+.new-to-amazon-line{
+    border-bottom: 1px solid black;
+    width: 366px;
+    margin: auto;
+}
+
+.new-to-amazon-text{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -13px);
+    width: 140px;
+    background-color: white;
+    text-align: center;
+}
+
+.create{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.line{
+    border-bottom: 1px solid grey;
+    margin-top: 30px;
+}
+
+.terms{
+    display: flex;
+    width: 250px;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.card-title{
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+#password {
+    transform: translateX(50px);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(226, 143, 0);
+    text-decoration: underline;
+}
+
+span{
+    display: inline-block;
+    width: 288px;
+    text-align: right;
+}
+
+.need-help{
+    transform: translateX(30px);
+}
+
+.copyright{
+    display: flex;
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+}
